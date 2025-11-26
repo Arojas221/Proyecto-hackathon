@@ -4,12 +4,18 @@
 	b.(Máquina virtual): *
 
 # 2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
-	librerías utilizadas (Para reportes y visualizaciones avanzadas):
+	* librerías utilizadas (Para reportes y visualizaciones avanzadas):
 	- Pandas. 
 	- OpenPyXL. 
 	- ReportLab.
 	- Matplotlib. 
-	
+	* Técnologías usadas:
+	- HTML5
+	- Bootstrap
+	- CSS Personalizado
+	- MySQL
+	- Flask
+
 # 3. y 4. Jerarquía del proyecto
 ```.
 ├── static
@@ -49,6 +55,11 @@
 
 # 6. Paso a paso para ejecutar el proyecto.
 	a).En el programa
+		1. Instalar el lenguaje python en el computador.
+		2. Instalar xampo y tener encendida las opciones de apache y MySQL.
+		3. Abrir el proyecto en un editor de código como VSC.
+		4. Abri SQL e ingresar los scripts del archivo sql.txt para crear la base de datos.
+		5. ejecutar en la terminal el comando python app.py.
 	
 	b).en la máquina virtual
 
@@ -56,6 +67,7 @@
 <img width="1054" height="433" alt="image" src="https://github.com/user-attachments/assets/66dbc73e-2d92-468d-8388-d04d306382c6" />
 # 8. Base de datos
 ![Imagen de WhatsApp 2025-09-11 a las 11 10 10_091baf6b](https://github.com/user-attachments/assets/631189ad-cf13-413e-ae97-f08cf410e79f)
+
 
 
 

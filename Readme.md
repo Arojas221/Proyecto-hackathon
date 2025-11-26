@@ -77,7 +77,25 @@
 		4. Abri SQL e ingresar los scripts del archivo sql.txt para crear la base de datos.
 		5. ejecutar en la terminal el comando python app.py.
 	
-	b).en la máquina virtual
+	b).en la máquina virtual y base de datos
+		1.Tener instalada una distribución de Linux (ubuntu)
+		2. Entrar a la distribución con wsl.
+		3. Instalar Azure desde la distribución y crear una cuenta.
+		4. Crear la base de datos para el programa y desplegarlo.
+		5. entrar al programa y Configurar el entorno virtual, ingrsando 
+			- pip install build
+			- python -m build --Wheel (genera el archivo.wlm)
+	4. Entrar a la máquina virtual:
+		-ssh usernam@ipdelavm
+	3. transferir la carpeta build al entorno virtual
+	-scp -r Hackaton\ PQRS/ jd@68.155.148.163:/home/jd/
+	4. 
+		-./venv/Scripts/actívate
+		- pip install flask
+		-pip install -r requirements.txt
+	5. desplegar la base de datos en azure
+	6. Comprobar que al correr el archivo, funcione la base de datos del azure
+	7. correr la máquina virtual
 
 # 7.Peticiones
 <img width="1054" height="433" alt="image" src="https://github.com/user-attachments/assets/66dbc73e-2d92-468d-8388-d04d306382c6" />
@@ -89,6 +107,7 @@
 
 # Integrante
 * Juan David samaca Rojas 
+
 
 
 

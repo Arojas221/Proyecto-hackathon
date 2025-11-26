@@ -3,24 +3,27 @@
  	    		   * Running on http://192.168.249.19:8080
 	b.(Máquina virtual): *
 
-# 2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
-	*librerías utilizadas (Para reportes y visualizaciones avanzadas):
-	- Pandas. 
-	- OpenPyXL. 
-	- ReportLab.
-	- Matplotlib. 
-	*Técnologías usadas:
-	- HTML5
-	- Bootstrap
-	- CSS Personalizado
-	- MySQL
-	- Flask
+
+# 2. Resumen de la funcionalidad
+###### Una página para la gestión PQRS (Peticiones, Quejas, Reclamos, Sugerencias y Denuncias) hecho en python para tanto entidades públicas o privadas fundamental para evaluar la calidad del servicio a cliente. Se pueden crear, editar y borrar peticiones; consultar, responder y editar peticiones enviadas y consultar las métricas y reportes globales de todas las peticiones existentes.
+	
+## librerías utilizadas (Para reportes y visualizaciones avanzadas):
+* Pandas. 
+* OpenPyXL.
+* ReportLab.
+* Matplotlib. 
+## Técnologías usadas:
+* HTML5
+* Bootstrap
+* CSS Personalizado
+* MySQL
+* Flask
 
 # 3. y 4. Jerarquía del proyecto
 ```.
 ├── static
 │   ├── \ css
-│   │   ├── style.css // carpeta con los diseños en css
+│   │   ├── style.css 
 ├── templates // diseño de cada ventana
 │   ├── base.html
 │   ├── dashboard.html
@@ -37,14 +40,27 @@
 │   ├── terminos_servicio.html
 │   ├── ver_pqrsd.html
 ├── .deployment
-├── .env //para configurar la base de datos.
+├── .env 
 ├── app.py // lógica del entorno virtual.
 ├── config.py // funcionalidades para el backend.
 ├── models.py // configura la lógica para la base de datos
 ├── readme.md
 ├── setup.py
-└── sql Informacion pruebas.txt//archivo para crear la base de datos por separado
+└──sql.txt
 ```
+###### \ css
+	Contiene los diseños hechos en css para las ventanas
+###### templates	
+	Contiene cada una de las ventanas con su estructura y lógica definida usando html.
+###### .env
+	 configura el entorno hecho en flask.
+###### models.py
+	Contiene la lógica de la base de datos que se encuentra conectada.
+###### confi.py
+	configura la lógica para conectarse a la base de datos
+###### sql
+	contiene la información para poder crear la base de datos en sql
+
 # 5. configuraciones declaradas en el config.py
 
     DB_HOST = os.getenv("MYSQL_HOST", "localhost") // Define la red a la que se va a conectar
@@ -71,6 +87,8 @@
 ![Imagen de WhatsApp 2025-09-11 a las 11 10 10_091baf6b](https://github.com/user-attachments/assets/631189ad-cf13-413e-ae97-f08cf410e79f)
 
 
+# Integrante
+* Juan David samaca Rojas 
 
 
 

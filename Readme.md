@@ -3,7 +3,6 @@
  	    		   * Running on http://192.168.249.19:8080
 	b.(Máquina virtual): *
 
-
 2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
 	librerías utilizadas (Para reportes y visualizaciones avanzadas):
 	- Pandas. 
@@ -48,7 +47,9 @@
     DB_PORT = os.getenv("MYSQL_PORT", "3306")// define el puerto 
 
 6. Paso a paso para ejecutar el proyecto.
-	a).
+	a).En el programa
+	
+	b).en la máquina virtual
 
 7.Peticiones
 <img width="1054" height="433" alt="image" src="https://github.com/user-attachments/assets/66dbc73e-2d92-468d-8388-d04d306382c6" />
@@ -57,8 +58,6 @@
 
 
 
-
-8.Base de datos
 
 
 

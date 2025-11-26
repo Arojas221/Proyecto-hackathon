@@ -1,16 +1,16 @@
-1. URL del programa:
+#1. URL del programa:
 	a.(en el programa):* Running on http://127.0.0.1:8080
  	    		   * Running on http://192.168.249.19:8080
 	b.(Máquina virtual): *
 
-2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
+#2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
 	librerías utilizadas (Para reportes y visualizaciones avanzadas):
 	- Pandas. 
 	- OpenPyXL. 
 	- ReportLab.
 	- Matplotlib. 
 	
-3. y 4. Jerarquía del proyecto
+#3. y 4. Jerarquía del proyecto
 ```.
 ├── static
 │   ├── \ css
@@ -38,7 +38,8 @@
 ├── readme.md
 ├── setup.py
 └── sql Informacion pruebas.txt//archivo para crear la base de datos por separado
-5. configuraciones declaradas en el config.py
+```
+# 5. configuraciones declaradas en el config.py
 
     DB_HOST = os.getenv("MYSQL_HOST", "localhost") // Define la red a la que se va a conectar
     DB_USER = os.getenv("MYSQL_USER", "pqrsd_user") //Define el nombre de usuario
@@ -46,15 +47,16 @@
     DB_NAME = os.getenv("MYSQL_DB", "sistema_pqrsd") // Define el nombre de la BD
     DB_PORT = os.getenv("MYSQL_PORT", "3306")// define el puerto 
 
-6. Paso a paso para ejecutar el proyecto.
+#6. Paso a paso para ejecutar el proyecto.
 	a).En el programa
 	
 	b).en la máquina virtual
 
-7.Peticiones
+#7.Peticiones
 <img width="1054" height="433" alt="image" src="https://github.com/user-attachments/assets/66dbc73e-2d92-468d-8388-d04d306382c6" />
-8. Base de datos
+#8. Base de datos
 ![Imagen de WhatsApp 2025-09-11 a las 11 10 10_091baf6b](https://github.com/user-attachments/assets/631189ad-cf13-413e-ae97-f08cf410e79f)
+
 
 
 

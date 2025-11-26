@@ -81,21 +81,24 @@
 		1.Tener instalada una distribución de Linux (ubuntu)
 		2. Entrar a la distribución con wsl.
 		3. Instalar Azure desde la distribución y crear una cuenta.
+			 winget install --exact --id Microsoft.AzureCLI
 		4. Crear la base de datos para el programa y desplegarlo.
-		5. entrar al programa y Configurar el entorno virtual, ingrsando 
+        az postgres flexible-server create --name "POSTGRES_NOMBRE_INSTANCIA" --resource-group "Grupo de recurso" --admin-user "nombre_admin" --			admin>
+		5. desplegar la base de datos en azure
+		6. entrar al programa y Configurar el entorno virtual, ingrsando 
 			- pip install build
 			- python -m build --Wheel (genera el archivo.wlm)
-	4. Entrar a la máquina virtual:
+	7.Crear la máquina virtual
+		az vm create --resource-group "grupo_de_recursos" --name "nombre_vm" --image "Canonical:ubuntu-24_04-lts:server-gen1:latest" --admin-				username "nombreUsuario>
+
+	7.Entrar a la máquina virtual:
 		-ssh usernam@ipdelavm
-	3. transferir la carpeta build al entorno virtual
-	-scp -r Hackaton\ PQRS/ jd@68.155.148.163:/home/jd/
-	4. 
+	8. entrar a la distribución, ubicarse en la carpeta del programa y transferirlo al entorno virtual,
+	-scp -r Hackaton\ PQRS/ userVM@6IP:/home/jd/
 		-./venv/Scripts/actívate
 		- pip install flask
 		-pip install -r requirements.txt
-	5. desplegar la base de datos en azure
-	6. Comprobar que al correr el archivo, funcione la base de datos del azure
-	7. correr la máquina virtual
+	10. correr la máquina virtual
 
 # 7.Peticiones
 <img width="1054" height="433" alt="image" src="https://github.com/user-attachments/assets/66dbc73e-2d92-468d-8388-d04d306382c6" />
@@ -107,6 +110,7 @@
 
 # Integrante
 * Juan David samaca Rojas 
+
 
 
 

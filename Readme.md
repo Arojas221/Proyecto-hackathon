@@ -4,12 +4,12 @@
 	b.(Máquina virtual): *
 
 # 2. Una página web que registra peticiones de tipo PQRS de diversos usuarios.
-	* librerías utilizadas (Para reportes y visualizaciones avanzadas):
+	*librerías utilizadas (Para reportes y visualizaciones avanzadas):
 	- Pandas. 
 	- OpenPyXL. 
 	- ReportLab.
 	- Matplotlib. 
-	* Técnologías usadas:
+	*Técnologías usadas:
 	- HTML5
 	- Bootstrap
 	- CSS Personalizado
